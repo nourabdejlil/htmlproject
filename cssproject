@@ -1,0 +1,644 @@
+body{
+    background-color:#D2F5E3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #94B4A4;
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+nav a{
+    color: black;
+    padding-left: 0px;  
+    text-decoration: none; 
+}
+nav a:hover{
+    color: white;
+}
+nav h1{
+    color: white;
+    padding-left: 60px ;
+    margin: 10px;
+}
+.soon{
+    background-color:rgb(78, 78, 78);
+    display: inline-block;
+    margin: 100px;
+    width: 300px;
+    height: 540px;
+    border-radius:15px;
+    box-shadow: 6px 6px 10px rgb(65, 64, 64);
+    margin-top: 100px;
+}
+
+section h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+section h3{
+    color: #D2F5E3;
+    text-align: center;
+    font-family: cursive ;
+    font-size:x-large;
+    margin: 10px;
+}
+section p{
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 17px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.Demo{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.links{
+    border: 1px;
+    border-color: white;
+    border-style:solid;
+    display: inline;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none; 
+}
+.htmlcss{
+    color: black;
+    margin-top:25px ;
+    margin-left: 40px;
+}
+footer{
+    background-color: rgb(72, 70, 70);
+    display:flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    color: rgb(89, 121, 89);
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif; ;
+}
+
+footer h3{
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt'
+}
+
+footer .info{
+    margin-bottom: 10px;
+}
+
+footer .contact{
+    margin-top: 70px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a img{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.desgined h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: 'prompt' ;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="projects.html" >Projects</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1><center>Projects</center></h1>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+        <div class="soon"> 
+            <img src="coming-soon.png" alt="soon" width="300px" height="250px">
+            <h3>wistia interface replication</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quidem suscipit, incidunt blanditiis id nisi minima vitae perferendis voluptas facere aut nulla. A aliquid dolor incidunt minima quidem ut eveniet.</p>
+            <div class="Demo">
+                <div class="links">
+                    <a href="Demo">Demo </a>
+                </div>
+                <div class="links">
+                    <a href="code">Code </a>
+                </div>
+                <div class="htmlcss">
+                    <h6>Html & css</h6>
+                </div> 
+            </div>
+        </div>
+         
+    </section>
+    <footer>
+        <div class="info">
+            <h1>Contact me</h1>
+            <h3>Nour Abdejlil</h3>
+            <h3>56034633</h3>
+            <h3>nourabdejlil01@gmail.com</h3>
+        </div>
+        <div class="contact">
+            <a href="https://github.com/"><img src="github.png" alt="github" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="linked in.png" alt="linkedin" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="codewars-512.webp" alt="codewars" width="50px" height="50px"></a>
+        </div>
+        <div class="desgined">
+            <h3>Desgined by Nour</h3>
+        </div>
+    </footer>
+</body>
+</html>
+body{
+    background-color:#b2cdc0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #94B4A4;
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+nav a{
+    color: black;
+    padding-left: 0px;  
+    text-decoration: none; 
+}
+nav a:hover{
+    color: white;
+}
+nav h1{
+    color: white;
+    padding-left: 60px ;
+    margin: 10px;
+}
+section{
+    margin-bottom: 150px;
+}
+section h1{
+    color: bisque;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    padding-top: 140px;
+    padding-bottom: 50px ;
+}
+section img{
+    padding-left: 10px;
+}
+section h4{
+    text-align: center;
+    color: black;
+    padding-bottom: 50px;
+    font-size: 20px
+    
+}
+section h4:hover{
+    color: bisque;
+}
+
+.img{
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(72, 70, 70);
+    display:flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    color: rgb(89, 121, 89);
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif; ;
+}
+
+footer h3{
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt'
+}
+
+footer .info{
+    margin-bottom: 10px;
+}
+
+footer .contact{
+    margin-top: 70px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a img{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.desgined h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: 'prompt' ;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav  >
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="projects.html" >Projects</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Hi I'm Nour</h1>
+        <h4>A software developer</h4>
+        <div class="img">
+            <img src="html.png" alt="html" width="75px" height="75px">
+            <img src="css.png" alt="css" width="75px" height="75px">
+            <img src="js.png" alt="js" width="75px" height="75px">
+            <img src="bootstrap.png" alt="bootstrap" width="75px" height="75px">
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="info">
+            <h1>Contact me</h1>
+            <h3>Nour Abdejlil</h3>
+            <h3>56034633</h3>
+            <h3>nourabdejlil01@gmail.com</h3>
+        </div>
+        <div class="contact">
+            <a href="https://github.com/"><img src="github.png" alt="github" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="linked in.png" alt="linkedin" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="codewars-512.webp" alt="codewars" width="50px" height="50px"></a>
+        </div>
+        <div class="desgined">
+            <h3>Desgined by Nour</h3>
+        </div>
+    </footer>
+</body>
+</html>
+body{
+    background-color:#b2cdc0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #94B4A4;
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+nav a{
+    color: black;
+    padding-left: 0px;  
+    text-decoration: none; 
+}
+nav a:hover{
+    color: white;
+}
+nav h1{
+    color: white;
+    padding-left: 60px ;
+    margin: 10px;
+}
+section h1{
+    color: bisque;
+    font-family: serif;
+    font-size: 40px ;
+    margin-top:40px;
+    margin-bottom: 40px;
+    
+}
+fieldset{
+    padding: 15px 30px 15px 30px;
+    margin-top: auto;
+    margin-bottom:  100px; ;
+    margin-left:  auto ;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 250px;
+}
+legend{
+    color: rgb(66, 65, 65);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+label{
+    color: rgb(45, 45, 45);
+    font-family: cursive;
+    font-size: small;
+    font-weight: bold;
+}
+input{
+    padding: 4px;
+    border-radius: 5px;
+    width: 100%;
+}
+label, input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+select{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    padding:10px;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
+
+footer{
+    background-color: rgb(72, 70, 70);
+    display:flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    color: rgb(89, 121, 89);
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif; ;
+}
+
+footer h3{
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt'
+}
+
+footer .info{
+    margin-bottom: 10px;
+}
+
+footer .contact{
+    margin-top: 70px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a img{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.desgined h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: 'prompt' ;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="projects.html" >Projects</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1><center>Contact me </center></h1>
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div><label>Name:</label></div>
+                <div><input type="text" /></div>
+                <div><label>Email:</label></div>
+                <div><input type="email" /></div>
+                <div><label>Password:</label></div>
+                <div><input type="password" /></div>
+                <div><label>Age:</label></div>
+                <div><input type="number" /></div>
+                <label >Gender:</label>
+                <select name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>           
+                </select>
+                <div><textarea id="textarea" type="text" rows="3" cols="20" placeholder="Add a comment here"></textarea></div>
+                <div><button>Submit</button></div>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="info">
+            <h1>Contact me</h1>
+            <h3>Nour Abdejlil</h3>
+            <h3>56034633</h3>
+            <h3>nourabdejlil01@gmail.com</h3>
+        </div>
+        <div class="contact">
+            <a href="https://github.com/"><img src="github.png" alt="github" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="linked in.png" alt="linkedin" width="50px" height="50px"></a>
+            <a href="https://www.codewars.com/"><img src="codewars-512.webp" alt="codewars" width="50px" height="50px"></a>
+        </div>
+        <div class="desgined">
+            <h3>Desgined by Nour</h3>
+        </div>
+    </footer>
+</body>
+</html>
